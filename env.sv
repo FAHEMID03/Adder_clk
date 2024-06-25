@@ -1,5 +1,5 @@
 class my env extends uvm_env;
-  uvm_component_utils(env)
+  `uvm_component_utils(env)
   agent agt;
   scoreboard sb;
 
